@@ -1,5 +1,5 @@
 import React from "react";
-import { useId } from "react";
+import { useId } from "react"; // useID hook only to be used to give 'id' not  a key, it is not recommended
 
 function InputBox({
     label,
